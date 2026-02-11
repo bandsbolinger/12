@@ -1,5 +1,5 @@
 """
-MOMENTUM SCALPER V2 - HEADLESS (FOR RAILWAY)
+MOMENTUM SCALPER V2 - HEADLESS NO FEES (FOR RAILWAY)
 Logs trades and status updates line-by-line.
 Optimal for cloud deployment where interactive terminals don't exist.
 """
@@ -30,7 +30,7 @@ COOLDOWN_SECONDS = 10
 ACCOUNT_BALANCE = 100.0
 LEVERAGE = 50
 RISK_PER_TRADE = 0.10
-FEE_RATE = 0.0002           # 0.02% (Standard Taker Fee)
+FEE_RATE = 0.0000           # 0% FEE (Assuming Maker/Promo)
 
 # =========================================
 
